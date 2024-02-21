@@ -1,5 +1,9 @@
 
 /* globais */
+.container-calculadora {
+    grid-area: calculadora;
+}
+
 .chamada {
     text-align: center;
     margin: 20px;

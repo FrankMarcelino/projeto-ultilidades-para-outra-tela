@@ -10,24 +10,75 @@
 </head>
 
 <body>
+
     <div class="container-ultilidades">
-        <div class="curtainer-relogio">
-            <!-- <div class="container-btn-background">
-                <span class="titulo-btn">Modo escuro</span>
-                <div class="switch">
-                    <input id="dark-mode" class="toggle" type="checkbox" name="Dark mode" role="switch" value="on" />
-                    <label for="dark-mode"><span></span></label>
+
+        <div class="container-btn-background">
+            <span class="titulo-btn">Modo escuro</span>
+            <div class="switch">
+                <input id="dark-mode" class="toggle" type="checkbox" name="Dark mode" role="switch" value="on" />
+                <label for="dark-mode"><span></span></label>
+            </div>
+        </div>
+        <div class="container-list-to-do">
+            <header>
+                <h1>Lista de tarefas</h1>
+            </header>
+            <form id="lista-tarefas-forms">
+                <p>Adicione sua tarefa:</p>
+                <div class="form-controle">
+                    <input type="text" id="form-input" placeholder="O que tenho para fazer?">
+                    <button type="submit">
+                        ➕
+                    </button>
                 </div>
+            </form>
+            <form id="edita-form" class="hide">
+                <p>Edite sua tarefa:</p>
+                <div class="form-controle">
+                    <input type="text" id="edit-input">
+                    <button type="submit">
+                        ✔️
+                    </button>
+                </div>
+                <button id="btn-cancelar">Cancelar</button>
+            </form>
+
+            <div id="menu-ferramentas">
+                <div id="procurar">
+                    <h4>Pesquisar:</h4>
+                    <form>
+                        <input type="text" id="procurar-por" placeholder="Buscar">
+                        <button id="apagar">
+                            🔙
+                        </button>
+                    </form>
+                </div>
+
+                <div class="filtro">
+                    <h4>Filtrar:</h4>
+                    <select name="" id="selecao-filtro">
+                        <option value="todos">Todos</option>
+                        <option value="feitos">Feitos</option>
+                        <option value="falta">A fazer</option>
+                    </select>
+                </div>
+            </div>
+            <div id="lista-tarefas">
+
+                <!-- <div class="tarefas feito">
+                <h3>Estuda JavaScript</h3>
+                <button class="tarefa-finalizada">✔️</button>
+                <button class="tarefa-edita">✏️</button>
+                <button class="tarefa-remove">❌</button>
+
             </div> -->
 
-            <div id="container-to-do">
-                <h1>Minha Lista de Tarefas</h1>
-                <input type="text" id="taskInput" placeholder="Digite sua tarefa" />
-                <button onclick="addTask()">Adicionar</button>
-                <ul id="taskList"></ul>
-            </div>
 
-            <!-- <div class="relogio">
+            </div>
+        </div>
+        <div class="container-relogio">
+            <div class="relogio">
 
                 <div>
                     <span id="horas">00</span>
@@ -42,9 +93,11 @@
                     <span class="tempo">Segundos</span>
                 </div>
             </div>
-        </div> -->
-
-        <!-- <div class="container-calculadora">
+        </div>
+        <div class="container-bloco-notas">
+            <textarea name="bloco-notas" id="" class="bloco-notas" cols="30" rows="10"></textarea>
+        </div>
+        <div class="container-calculadora">
             <div class="calculadora">
                 <label class="resultado"></label>
                 <table>
@@ -80,7 +133,7 @@
                     </tbody>
                 </table>
             </div>
-        </div> -->
+        </div>
     </div>
 
 </body>

@@ -1,5 +1,6 @@
 .container-btn-background {
     display: flex;
+    grid-area: btn-bg;
     height: 20px;
     width: 180px;
     gap: 8px;

@@ -1,0 +1,7 @@
+.container-bloco-notas {
+    grid-area: bloco-notas;
+}
+
+.bloco-notas {
+    padding: 10px;
+}
