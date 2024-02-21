@@ -12,15 +12,22 @@
 <body>
     <div class="container-ultilidades">
         <div class="curtainer-relogio">
-            <div class="container-btn-background">
+            <!-- <div class="container-btn-background">
                 <span class="titulo-btn">Modo escuro</span>
                 <div class="switch">
                     <input id="dark-mode" class="toggle" type="checkbox" name="Dark mode" role="switch" value="on" />
                     <label for="dark-mode"><span></span></label>
                 </div>
+            </div> -->
+
+            <div id="container-to-do">
+                <h1>Minha Lista de Tarefas</h1>
+                <input type="text" id="taskInput" placeholder="Digite sua tarefa" />
+                <button onclick="addTask()">Adicionar</button>
+                <ul id="taskList"></ul>
             </div>
 
-            <div class="relogio">
+            <!-- <div class="relogio">
 
                 <div>
                     <span id="horas">00</span>
@@ -35,9 +42,9 @@
                     <span class="tempo">Segundos</span>
                 </div>
             </div>
-        </div>
+        </div> -->
 
-        <div class="container-calculadora">
+        <!-- <div class="container-calculadora">
             <div class="calculadora">
                 <label class="resultado"></label>
                 <table>
@@ -73,7 +80,7 @@
                     </tbody>
                 </table>
             </div>
-        </div>
+        </div> -->
     </div>
 
 </body>

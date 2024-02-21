@@ -7,7 +7,7 @@
 
 body {
     height: 100vh;
-    background-image: url('../img/bg-mesa-madeira.jpg');
+    /* background-image: url('../img/bg-mesa-madeira.jpg'); */
     background-size: cover;
     display: flex;
     align-items: center;
